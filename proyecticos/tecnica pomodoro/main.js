@@ -58,7 +58,7 @@ function renderTasks() {
 }
 
 function startButtonHandler(id) {
-  time = 0.5 * 60;
+  time = 25 * 60;
   current = id;
   const taskId = tasks.findIndex((task) => task.id === id);
   document.querySelector("#time #taskName").textContent = tasks[taskId].title;

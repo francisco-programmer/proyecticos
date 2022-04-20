@@ -2,6 +2,43 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #F4F6F6;
 }
+#tarjeta  {
+    font-size: 30px;
+    color: #B2BABB;
+    text-align: center; 
+    font-weight: bold;
+
+}
+.interes {
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    background-color:#F2F4F4  ;
+    margin: auto;
+    border: solid 1px #B2BABB;
+    box-shadow: 0 2px 10px #B2BABB;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    
+}
+#i {
+    font-size: 20px;
+    color: #AEB6BF ;
+    font-weight: bold;
+}
+#porcentaje {
+    color: #AEB6BF ;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 40px auto;
+   text-shadow: 0 2px 10px black ;
+}
+
 .card {
     width: 500px;
     height: 300px;
@@ -9,13 +46,14 @@ body{
     padding: 50px 20px 0 20px;
     box-sizing: border-box;
     background: rgb(0, 114, 255);
-    background:-webkit-radial-gradient(        #0072ff 1%,        #2119ad 100%    ) ;
-    margin: 100px auto;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    background: radial-gradient( rgb(45, 154, 226) 1%,  rgb(0, 114, 255)100%    ) ;
+    margin: 20px auto ;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 6);
     -webkit-border-radius: 20x;
     -moz-border-radius: 20x;
     -ms-border-radius: 20x;
     -o-border-radius: 20x;
+
 } 
 .card input {
     font-size: 28px;
@@ -50,3 +88,13 @@ body{
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+.card img {
+    width: 60px;
+    height: 60px;
+    display: flexbox;
+    margin: 0 0 0 260px;
+    position: absolute;
+  }
+  #inputDate {
+    margin-bottom: 20px;
+    }
