@@ -9,6 +9,14 @@ body{
     font-weight: bold;
 
 }
+#respuesta {
+    font-size: 30px;
+    color: white;
+}
+#isvalid {
+    text-align: center;
+   
+}
 .interes {
     align-items: center;
     text-align: center;
@@ -28,15 +36,14 @@ body{
 }
 #i {
     font-size: 20px;
-    color: #AEB6BF ;
+    color:rgb(0, 114, 255) ;
     font-weight: bold;
 }
-#porcentaje {
-    color: #AEB6BF ;
+button {
+    color: rgb(0, 114, 255) ;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 20px;
     margin: 40px auto;
-   text-shadow: 0 2px 10px black ;
 }
 
 .card {
@@ -92,7 +99,7 @@ body{
     width: 60px;
     height: 60px;
     display: flexbox;
-    margin: 0 0 0 260px;
+    margin: 0 0 0 230px;
     position: absolute;
   }
   #inputDate {

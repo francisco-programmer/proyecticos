@@ -13,15 +13,19 @@
     </div>
    <div class="promo">
     <div class="interes">
-        <p id="i">Inter&eacute;s</p>
-        <p id="porcentaje">0%</p>
+        <p id="i">Ingresa numero de tarjeta</p>
+        <form id="formulario">
+        <input type="text"  id="numberCard" maxlength="16" minlength="16" > 
+        <button id="guardar" onclick="validarFormulario()">Guardar</button>
+    </form>
     </div>
+    <p id="isvalid"></p>
 <div id="app">
         <div class="card">
             <div class="holder">Francisco palencia miranda</div>
-            <input type="text" id="inputCard">
-            <input type="text"id="inputDate">
-            <input type="text" id="inputCVV">
+           <p id="respuesta"></p>
+            <input type="text"id="inputDate" value="12/33">
+            <input type="text" id="inputCVV" value="012">
             <img src="./visa.png">
         </div>
     </div>
